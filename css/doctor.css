@@ -1,0 +1,61 @@
+body {
+	margin: 0px;
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: ninob;
+	src: url(../fonts/bpg_nino_mtavruli_bold.ttf);
+}
+@font-face {
+	font-family: ninor;
+	src: url(../fonts/bpg_nino_mtavruli_normal.ttf);
+}
+.navbar-nav {
+	margin-left: auto ;
+}
+.navf {
+	font-family: ninob;
+	color: white !important;
+	font-size: 23px;
+	padding-top: 14px;
+}
+.navi {
+	background-color: #419c41;
+}
+.hedcont {
+	max-width: 1890px;
+}
+.dropdown-toggle::after {
+	display: none;
+}
+.drf {
+	font-family: ninor;
+}
+.drpcol {
+	background-color: #6ea53ec4;
+	margin-top: 7px;
+}
+.logom {
+	width: 60px;
+	margin-left: 19px;
+	margin-right: 15px;
+}
+.logoa {
+	font-size: 26px;
+	color: white !important;
+	font-weight: bold;
+}
+.navf:hover {
+	color: #545454 !important;
+	transition: all 0.4s;
+}
+.reg {
+	margin-right: 15px;
+	margin-left: 10px;
+}
+.sg {
+	background-color: #ffffff00 !important;
+	border: none !important;
+	font-size: 17px;
+	font-weight: bold;
+}
