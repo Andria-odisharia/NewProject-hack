@@ -525,13 +525,13 @@ footer {
 .btn-toolbar{
     justify-content: center;
 }
-.damateba{
+/* .damateba{
     position: absolute;
     bottom: 3%;
     right: 8%;
     font-family: ninor;
     padding: 7px 5px 3px;
-}
+} */
 .hme{
 	font-family: ninob;
 }

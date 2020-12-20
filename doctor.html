@@ -41,52 +41,96 @@
                       </li>
                    
                 </ul>
-                <!-- Button trigger modal -->
+            <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary reg sg" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-           რეგისტრაცია
+              რეგისტრაცია
+                </button>
+             
+             <!-- Modal -->
+             <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+               <div class="modal-dialog">
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <h5 class="modal-title hme" id="staticBackdropLabel">რეგისტრაცია</h5>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                   </div>
+                   <div class="modal-body">
+                     <form action="#" method="post">
+                       <div class="form-row d-flex">
+                         <div class="col-xl-6 "><input type="text" class="form-control aucileb" placeholder="სახელი"></div>
+                         <div class="col-xl-6"><input type="text" class="form-control block" placeholder="გვარი"></div>
+                       </div>
+                       <div class="form-group pirad">
+                         <input type="text" class="form-control" id="formGroupExampleInput" placeholder="პირადი ნომერი">
+                       </div>
+                       <div class="d-flex pirad">
+                       <div class="form-check">
+                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                         <label class="form-check-label" for="flexRadioDefault1">
+                           ექიმი
+                         </label>
+                       </div>
+                       <div class="form-check ">
+                         <input class="form-check-input meore" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                         <label class="form-check-label" for="flexRadioDefault1">
+                           პაციენტი
+                         </label>
+                       </div>
+                     </div>
+                     <div class="form-group pirad">
+                       <input type="date" class="form-control" id="formGroupExampleInput" >
+                     </div>
+                     <select class="form-select pirad" aria-label="Default select example">
+                       <option selected>სქესი</option>
+                       <option value="1">ქალი</option>
+                       <option value="2">კაცი</option>
+                       <option value="3">სხვა</option>
+                     </select>
+                     <div class="form-group pirad">
+                       <input type="text" class="form-control" id="formGroupExampleInput" placeholder="ელ ფოსტა">
+                     </div>
+                     <div class="form-group pirad">
+                       <input type="password" class="form-control" id="formGroupExampleInput" placeholder="პაროლი">
+                     </div>
+                     <div class="form-group pirad">
+                       <input type="password" class="form-control" id="formGroupExampleInput" placeholder="გადაამოწმე პაროლი">
+                     </div>
+                     </form>
+                   </div>
+                   <div class="modal-footer">
+                     <button type="button" class="btn btn-primary loggilak">რეგისტრაცია</button>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             <!-- Button trigger modal -->
+           <button type="button" class="btn btn-primary sg aut" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+               ავტორიზაცია
              </button>
-          
-          <!-- Modal -->
-          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  ...
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Understood</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary sg aut" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-            ავტორიზაცია
-          </button>
-          
-          <!-- Modal -->
-          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  ...
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Understood</button>
-                </div>
-              </div>
-            </div>
-          </div>
+             
+             <!-- Modal -->
+             <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdrop2Label" aria-hidden="true">
+               <div class="modal-dialog">
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <h5 class="modal-title hme" id="staticBackdropLabel">ავტორიზაცია</h5>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                   </div>
+                   <div class="modal-body">
+                     <div class="form-group pirad">
+                       <input type="text" class="form-control" id="formGroupExampleInput" placeholder="ელ ფოსტა">
+                     </div>
+                     <div class="form-group pirad">
+                       <input type="password" class="form-control" id="formGroupExampleInput" placeholder="პაროლი">
+                     </div>
+                     <a href="#" class="daviwy">დაგავიწყდა პაროლი?</a>
+                   </div>
+                   <div class="modal-footer">
+                     <button type="button" class="btn btn-primary loggilak">ავტორიზაცია</button>
+                   </div>
+                 </div>
+               </div>
+             </div>
                   </div>
                 </div>
               </nav>
