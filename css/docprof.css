@@ -223,6 +223,7 @@ footer {
 	padding-left: 10px;
 	padding-right: 10px;
 	border-radius: 55px;
+	margin-bottom: 1px;
 }
 .soc1 {
 	padding-top: 10px;
@@ -612,4 +613,34 @@ footer {
 #Smallchat .Input-emoji .Input_button-emoji .Icon path,
 #Smallchat .Input_button:hover .Icon path {
 	fill: #2c2c46;
+}
+@media only screen and (max-width:1250px){
+   .logoa{
+	   font-size: 20px;
+   }
+   .logom{
+	   margin-left: 0px;
+	   margin-right: 0px;
+   }
+   .navf{
+	   font-size: 17px;
+   }
+   .reg{
+	   margin-right: 0px;
+	   margin-left: 0px;
+   }
+}
+@media only screen and (max-width:1000px){
+	.flme{
+		display: block !important;
+	}
+	.profilis{
+		max-width: 100%;
+	}
+	.lastmmm{
+		margin-bottom: 0px;
+	}
+	.fotcol h5{
+		margin-top: 50px;
+	}
 }

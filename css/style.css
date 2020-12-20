@@ -100,7 +100,8 @@ footer {
 	padding-bottom: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
-	border-radius: 55px;
+    border-radius: 55px;
+    margin-bottom: 1px;
 }
 .soc1 {
 	padding-top: 10px;
@@ -545,7 +546,7 @@ footer {
 }
 @media only screen and (max-width:1000px){
     .fotcol h5{
-        margin-top: 30px;
+        margin-top: 50px;
     }
     .logoa{
         font-size: 18px;
@@ -558,3 +559,20 @@ footer {
         margin-top: 15px;
     }
 }
+@media only screen and (max-width:1250px){
+    .logoa{
+        font-size: 20px;
+    }
+    .logom{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .navf{
+        font-size: 17px;
+    }
+    .reg{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+ }
+

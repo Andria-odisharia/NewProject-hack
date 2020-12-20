@@ -165,7 +165,8 @@ footer {
 	padding-bottom: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
-	border-radius: 55px;
+    border-radius: 55px;
+    margin-bottom: 1px;
 }
 .soc1 {
 	padding-top: 10px;
@@ -606,3 +607,19 @@ footer {
 .aut:focus{
 	box-shadow: 0 0 0 0.25rem #419c4199 !important;
 }
+@media only screen and (max-width:1250px){
+	.logoa{
+		font-size: 20px;
+	}
+	.logom{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.navf{
+		font-size: 17px;
+	}
+	.reg{
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+ }
