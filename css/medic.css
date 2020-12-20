@@ -518,6 +518,17 @@ footer {
 #Smallchat .Input_button:hover .Icon path {
 	fill: #2c2c46;
 }
+.saxeli{
+    color: white;
+    font-family: ninob;
+    margin-bottom: 0px;
+    margin-top: 6px;
+    margin-left: 30px;
+}
+.dropdown-menu.show {
+    display: block; 
+    margin-left: 31px; 
+}
 .gadasvla{
     border-radius: 10px !important;
     margin: 0 4px;

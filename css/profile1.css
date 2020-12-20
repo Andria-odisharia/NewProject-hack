@@ -59,80 +59,84 @@ body {
 	font-size: 17px;
 	font-weight: bold;
 }
-.hme{
+.hme {
 	font-family: ninob;
 }
-.meore{
-	margin-left: 1px !important; 
+.meore {
+	margin-left: 1px !important;
 	margin-right: 7px !important;
 }
-.pirad{
+.pirad {
 	margin-top: 7px;
 }
-.aucileb{
+.aucileb {
 	width: 97%;
 }
-.daviwy{
+.daviwy {
 	color: #0d6efd;
-    text-decoration: none;
-    float: right;
-    margin-top: 6px;
+	text-decoration: none;
+	float: right;
+	margin-top: 6px;
 }
-.loggilak{
+.loggilak {
 	background-color: #419c41;
 	border-color: #419c41;
 	box-shadow: 0 0 0 0.25rem #419c4199 !important;
 	font-weight: bold;
 }
-.loggilak:hover{
+.loggilak:hover {
 	background-color: #419c41;
-    border-color: #419c41;
+	border-color: #419c41;
 }
-.loggilak:active{
+.loggilak:active {
 	background-color: #419c41;
-    border-color: #419c41;
+	border-color: #419c41;
 }
-.loggilak:focus{
+.loggilak:focus {
 	background-color: #419c41;
 	border-color: #419c41;
 	box-shadow: 0 0 0 0.25rem #419c4199;
 }
-.reg:focus{
+.reg:focus {
 	box-shadow: 0 0 0 0.25rem #419c4199 !important;
 }
-.aut:focus{
+.aut:focus {
 	box-shadow: 0 0 0 0.25rem #419c4199 !important;
 }
-.profilis{
-    max-width: 14%;
-    border: 3px solid  #419c41 ;
-    text-align: center;
-    height: 650px;
+.profilis {
+	max-width: 14%;
+	border: 3px solid #a9d2a9;
+    background-color: #419c4173;
+	text-align: center;
+	height: 650px;
 }
-.profimg{
-    margin: 100px auto 30px;
-    max-width: 45%;
-    display: block;
+.profimg {
+	margin: 100px auto 30px;
+	max-width: 45%;
+	display: block;
 }
-.profp1{
-    font-size: 25px;
-    font-family: ninob;
-    margin-bottom: 18px;
+.profp1 {
+	font-size: 25px;
+	font-family: ninob;
+	margin-bottom: 18px;
 }
-.proflink{
-    font-size: 19px;
-    font-family: ninor;
-    text-decoration: none;
-    color: black;
+.proflink {
+	font-size: 19px;
+	font-family: ninor;
+	text-decoration: none;
+	color: black;
 }
-.proflink:hover{
-    color: black;
+.proflink:hover {
+	color: black;
 }
-.linkdiv{
-    margin-bottom: 18px;
+.linkdiv {
+	margin-bottom: 18px;
+	border-bottom: 1px solid black;
+    padding-bottom: 12px;
 }
-.linkdiv2{
-    margin-bottom: 120px;
+
+.linkdiv2 {
+	margin-bottom: 120px;
 }
 footer {
 	min-height: 284px;
@@ -212,8 +216,8 @@ footer {
 }
 .doce {
 	padding-left: 30px;
-    padding-right: 30px;
-    position: relative;
+	padding-right: 30px;
+	position: relative;
 }
 .clin {
 	font-size: 20px;
@@ -566,4 +570,55 @@ footer {
 #Smallchat .Input-emoji .Input_button-emoji .Icon path,
 #Smallchat .Input_button:hover .Icon path {
 	fill: #2c2c46;
+}
+.secenddiv {
+	width: 100%;
+	background-color: #419c4145;
+}
+.profpict {
+	width: 300px;
+	max-width: 100%;
+	margin-top: 40px;
+	margin-left: 0px;
+}
+.editin {
+    margin-left: 75px;
+    width: 25%;
+    margin: auto;
+    margin-top: 10px;
+}
+.saxeli{
+    color: white;
+    font-family: ninob;
+    margin-bottom: 0px;
+    margin-top: 6px;
+    margin-left: 30px;
+}
+.dropdown-menu.show {
+    display: block; 
+    margin-left: 31px; 
+}
+.mainb {
+	height: 100%;
+	position: relative;
+	text-align: center;
+}
+.editbut {
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translateX(-50%);
+    background-color: #419c41 !important;
+    border-color: #419c41 !important;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+	border-color: #419c41;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(65 156 65 / 52%);
+}
+.editinm{
+		margin-top: 20px;
+		margin: 20px auto 10px;
 }
